@@ -26,6 +26,7 @@ export const LoginForm = () => {
           type="email"
           name="email"
           placeholder="Enter email"
+          autoComplete="current-passsword"
         />
       </label>
       <label className={css.label}>
@@ -35,6 +36,7 @@ export const LoginForm = () => {
           type="password"
           name="password"
           placeholder="Enter password"
+          autoComplete="current-passsword"
         />
       </label>
 

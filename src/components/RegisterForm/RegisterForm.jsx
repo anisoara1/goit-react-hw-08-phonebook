@@ -27,6 +27,7 @@ export const RegisterForm = () => {
           type="text"
           name="name"
           placeholder="Enter user name"
+          autoComplete="current-passsword"
         />
       </label>
       <label className={css.label}>
@@ -36,6 +37,7 @@ export const RegisterForm = () => {
           type="email"
           name="email"
           placeholder="Enter email"
+          autoComplete="current-passsword"
         />
       </label>
       <label className={css.label}>
@@ -45,6 +47,7 @@ export const RegisterForm = () => {
           type="password"
           name="password"
           placeholder="Enter password"
+          autoComplete="current-passsword"
         />
       </label>
       <button className={css.formBtn} type="submit">

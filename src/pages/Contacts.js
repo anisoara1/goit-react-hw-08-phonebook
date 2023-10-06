@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Helmet } from 'react-helmet';
 import { ContactForm } from 'components/ContactForm/ContactForm';
 import { getIsLoading } from 'redux/contacts/selectors';
 import { ContactList } from 'components/ContactList/ContactList';
@@ -17,9 +16,9 @@ export default function Contacts() {
 
   return (
     <>
-      <Helmet>
+      <div>
         <title>Phonebook</title>
-      </Helmet>
+      </div>
       <ContactForm />
       <div>{isLoading && 'Request in progress...'}</div>
       <Filter />
