@@ -46,7 +46,7 @@ export const RegisterForm = () => {
           className={css.label}
           type="password"
           name="password"
-          placeholder="Enter password"
+          placeholder="Enter 7 digit password"
           autoComplete="current-passsword"
         />
       </label>
